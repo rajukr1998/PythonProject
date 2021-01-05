@@ -1,0 +1,10 @@
+import numpy
+fl = numpy.array(["Raju", "Karan", "Manohar", "Ankit"])
+print(fl)
+print(fl.ndim)
+fl1 = numpy.array("Raju")
+print(fl1.ndim)
+fl2 = numpy.array([["Raju", "Manohar"], ["Karan", "Shubham"]])
+print(fl2.ndim)
+fl3 = numpy.array([[["Raju"]]])
+print(fl3.ndim)
